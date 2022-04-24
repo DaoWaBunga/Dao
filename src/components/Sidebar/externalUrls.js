@@ -19,7 +19,7 @@ const externalUrls = [
   //   icon: <SvgIcon color="primary" component={GovIcon} />,
   // },
   {
-    title: "Buy Dawa on PCS",
+    title: "Buy DAWA on PCS",
     url: "https://pancakeswap.finance/swap?inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&outputCurrency=0xDc832c037a6bc18c461A0668ae050804C491448a",
     icon: <SvgIcon viewBox="0 0 64 64" color="primary" component={SpookySwapIcon} />,
   },
