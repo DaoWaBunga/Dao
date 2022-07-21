@@ -16,7 +16,7 @@ function DisChart() {
                 expandOnClick: false,
             }
         },
-        labels: ['PreSale', 'Vault', 'Development'],
+        labels: ['PreSale', 'Vault'],
         dataLabels: {
             enabled: false,
         },
@@ -39,7 +39,7 @@ function DisChart() {
         }
       };
 
-    const series = [75, 15, 10];
+    const series = [75, 25];
 
     return ( 
         <ReactApexChart 
