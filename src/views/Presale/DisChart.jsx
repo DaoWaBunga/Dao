@@ -16,7 +16,7 @@ function DisChart() {
                 expandOnClick: false,
             }
         },
-        labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+        labels: ['PreSale', 'Vault', 'Development'],
         dataLabels: {
             enabled: false,
         },
@@ -39,7 +39,7 @@ function DisChart() {
         }
       };
 
-    const series = [44, 55, 13, 43, 22];
+    const series = [75, 15, 10];
 
     return ( 
         <ReactApexChart 
