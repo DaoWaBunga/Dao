@@ -233,7 +233,7 @@ function Presale() {
                     Price(Per DAWA):
                     </Typography>
                     <Typography variant="h4" color="textSecondary">
-                      5 BUSD<br/><br/>
+                      2 BUSD<br/><br/>
                     </Typography>
                     <Typography variant="h6" color="textSecondary">
                     Total hard cap:
@@ -251,7 +251,7 @@ function Presale() {
                       Avaiable Just For You:
                     </Typography>
                     <Typography variant="h4" color="textSecondary">
-                      100 BUSD
+                      1000 BUSD
                     </Typography>
                   </Paper>
                 </Grid>
