@@ -233,7 +233,7 @@ function Presale() {
                     Price(Per DAWA):
                     </Typography>
                     <Typography variant="h4" color="textSecondary">
-                      10 BUSD<br/><br/>
+                      5 BUSD<br/><br/>
                     </Typography>
                     <Typography variant="h6" color="textSecondary">
                     Total hard cap:
@@ -258,11 +258,12 @@ function Presale() {
                 <Grid item xs={12} sm={12} md={12} lg={12}>
                   <Paper className="presale-card">
                     <Typography variant="h6" className="puretext">
-                      40% of presale funds —{'>'} Initial liquidity <br/>
-                      Liquidity added at 2x presale price ($20/MP) if presale sells out <br/>
-                      75% of initial liquidity will be hosted on SpookySwap and audited as protocol Treasury reserves <br/>
-                      25% of intial liquidity will be hosted on Knight Swap and be locked for 3 months <br/>
-                      Any unsold presale tokens, and an equal amount of DAO tokens, will be burned
+                      90% of presale funds —{'>'} Initial liquidity <br/>
+                      Liquidity added at 2x presale price ($10/MP) if presale sells out <br/>
+                      75% of initial liquidity will be hosted on https://pancakeswap.finance/ in the LP <br/>
+                      15% of intial liquidity will be hosted in a CrystalVault for users <br/>
+                      10% will be used for Development and project funds <br/>
+                      Any unsold presale tokens, and an equal amount of DAWA tokens, will be burned
                     </Typography>
                   </Paper>
                 </Grid>
