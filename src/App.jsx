@@ -253,9 +253,9 @@ function App() {
               <Stake />
             </Route>
 
-            {/<Route exact path="/presale">
+            <Route exact path="/presale">
               <Presale />
-          </Route>/}
+          </Route>
 
             {/* <Route path="/bonds">
               {bonds.map(bond => {
