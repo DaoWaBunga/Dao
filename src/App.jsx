@@ -241,23 +241,25 @@ function App() {
 
         <div className={`${classes.content} ${isSmallerScreen && classes.contentShift}`}>
           <Switch>
-            <Route exact path="/dashboard">
+            {/* <Route exact path="/dashboard">
               <TreasuryDashboard />
-          </Route>
+          </Route> */}
 
-            <Route exact path="/">
+            {/* <Route exact path="/">
               <Redirect to="/stake" />
             </Route>
 
             <Route path="/stake">
               <Stake />
-            </Route>
+            </Route> */}
 
-            <Route exact path="/presale">
+            {/* <Route exact path="/presale">
               <Presale />
-        </Route>
+        </Route> */}
 
-            <Route path="/bonds">
+
+
+            {/* <Route path="/bonds">
               {bonds.map(bond => {
                 return (
                   <Route exact key={bond.name} path={`/bonds/${bond.name}`}>
@@ -266,7 +268,7 @@ function App() {
                 );
               })}
               <ChooseBond />
-            </Route>
+            </Route> */}
 
             <Route component={NotFound} />
           </Switch>
