@@ -245,13 +245,13 @@ function App() {
               <TreasuryDashboard />
           </Route>
 
-            {/* <Route exact path="/">
+            <Route exact path="/">
               <Redirect to="/stake" />
             </Route>
 
             <Route path="/stake">
               <Stake />
-            </Route> */}
+            </Route>
 
             {/* <Route exact path="/presale">
               <Presale />
@@ -259,7 +259,7 @@ function App() {
 
 
 
-            {/* <Route path="/bonds">
+            <Route path="/bonds">
               {bonds.map(bond => {
                 return (
                   <Route exact key={bond.name} path={`/bonds/${bond.name}`}>
