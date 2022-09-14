@@ -259,7 +259,7 @@ function App() {
 
 
 
-            <Route path="/bonds">
+                        <Route path="/bonds">
               {bonds.map(bond => {
                 return (
                   <Route exact key={bond.name} path={`/bonds/${bond.name}`}>
@@ -268,7 +268,7 @@ function App() {
                 );
               })}
               <ChooseBond />
-            </Route> */}
+            </Route>
 
             <Route component={NotFound} />
           </Switch>
